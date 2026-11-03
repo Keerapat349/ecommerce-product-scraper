@@ -26,10 +26,10 @@ The system is built using a **Modular Design** following the standard ETL archit
 
 ---
 
-## 📂 Project Structure
+
+## Project Structure
 
 ```text
-.
 ecommerce-product-scraper/
 ├── etl_v2.py
 ├── check_output.py
@@ -39,19 +39,25 @@ ecommerce-product-scraper/
 └── output/
     ├── products.csv
     └── products.db
-
+```
 
 ## Installation
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
+```bash
 python etl_v2.py
+```
 
 ## Validation
 
+```bash
 python check_output.py
+```
 
 ## Sample Results
 
