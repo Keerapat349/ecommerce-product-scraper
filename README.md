@@ -35,3 +35,29 @@ The system is built using a **Modular Design** following the standard ETL archit
 ├── products.csv             # Exported CSV data (generated after execution)
 ├── ecommerce_products.db    # SQLite database (generated after execution)
 └── README.md                # Project documentation
+
+## Installation
+
+pip install -r requirements.txt
+
+## Usage
+
+python etl_v2.py
+
+## Validation
+
+python check_output.py
+
+## Sample Results
+
+- 60 products extracted from 4 categories
+- 0 missing values
+- 0 duplicate product URLs
+- CSV and SQLite exports verified
+- 60 matching records in both output formats
+
+## Data Source
+
+Source: https://testingurl.dev/scraping/ecommerce
+
+This is a personal practice project.
