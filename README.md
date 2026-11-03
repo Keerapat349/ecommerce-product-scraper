@@ -30,11 +30,16 @@ The system is built using a **Modular Design** following the standard ETL archit
 
 ```text
 .
-├── etl_v2.py                # Main ETL pipeline script
-├── requirements.txt         # Third-party dependencies
-├── products.csv             # Exported CSV data (generated after execution)
-├── ecommerce_products.db    # SQLite database (generated after execution)
-└── README.md                # Project documentation
+ecommerce-product-scraper/
+├── etl_v2.py
+├── check_output.py
+├── requirements.txt
+├── README.md
+├── screenshots/
+└── output/
+    ├── products.csv
+    └── products.db
+
 
 ## Installation
 
