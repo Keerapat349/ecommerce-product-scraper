@@ -66,3 +66,13 @@ python check_output.py
 Source: https://testingurl.dev/scraping/ecommerce
 
 This is a personal practice project.
+
+## Project Screenshots
+
+### Product Dataset
+
+![Product dataset](screenshots/dataset.png)
+
+### Data Validation
+
+![Validation result](screenshots/validation_result.png)
